@@ -1,0 +1,27 @@
+import java.util.*;
+import java.io.*;
+
+class Tasks{
+    int n;
+    int num[] = new int[10];
+    int arrivalTime[] = new int[10];
+    int execTime[] = new int[10];
+    int schedulingTIme[] = new int[10];
+    int waitingTime[] = new int[10];
+    int turnAroundTime[] = new int[10];
+    Scanner scn = new Scanner(system.in);
+    
+    
+    public void getdata(){
+        system.out.print("Enter number of tasks:");
+        n = scn. nextInt();
+        for(inti = 0; i<n; i++){
+             system.out.print("Enter number of tasks:");
+             num[i] = scn.nextInt();
+             system.out.print("Enter the arrival time:");
+             arrivalTime[i] = scn.nextInt();
+             system.out.print("Enter the execution time:");
+             execTime[i] = scn.nextInt();
+        }
+    }
+}
